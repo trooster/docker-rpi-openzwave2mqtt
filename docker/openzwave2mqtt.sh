@@ -46,7 +46,7 @@ generate_network_key() {
 
 # Environment variables
 LOG_LEVEL="${LOG_LEVEL:-$DEBUG}"
-DEVICE="${DEVICE:-/dev/ttyUSB0}"
+DEVICE="${DEVICE:-/dev/ttyACM0}"
 INSTANCE="${INSTANCE:-1}"
 STOP_ON_FAILURE="${STOP_ON_FAILURE:-true}"
 MQTT_SERVER="${MQTT_SERVER:-127.0.0.1}"
