@@ -6,10 +6,10 @@ set -e
 ##
 
 NAME="openzwave2mqtt"
-DOCKER_TAG="jriguera/$NAME"
+DOCKER_TAG="trooster/$NAME"
 RELEASE="openzwave2mqtt"
 DESCRIPTION="OpenZwave to MQTT bridge, ozwdaemon"
-GITHUB_REPO="jriguera/docker-rpi-openzwave2mqtt"
+GITHUB_REPO="trooster/docker-rpi-openzwave2mqtt"
 
 ###
 
